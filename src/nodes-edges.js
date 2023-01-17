@@ -5,10 +5,16 @@ export const initialNodes = [
     data: {
       label: '',
       img: 'https://cdn.iconscout.com/icon/free/png-256/sass-2752078-2284895.png?f=avif',
+      connectPoint: {
+        top: true,
+        left: true,
+        right: true,
+        bottom: true,
+      },
     },
-    position: { x: 0, y: 0 },
-    sourcePosition: 'left',
-    // sourcePosition: 'right',
+    position: { x: 250, y: 5 },
+    // sourcePosition: 'bottom',
+    sourcePosition: 'right',
     style: {
       backgroundColor: 'green',
     },
@@ -19,7 +25,7 @@ export const initialNodes = [
     data: {
       img: 'https://cdn.iconscout.com/icon/free/png-256/logo-1889531-1597591.png?f=avif',
     },
-    position: { x: 100, y: 0 },
+    position: { x: 100, y: 100 },
     style: {
       backgroundColor: 'transparent',
     },
@@ -27,7 +33,7 @@ export const initialNodes = [
   {
     id: '3',
     data: { label: '▲' },
-    position: { x: 400, y: 0 },
+    position: { x: 400, y: 100 },
     targetPosition: 'left',
     sourcePosition: 'right',
     style: {

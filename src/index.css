@@ -16,6 +16,7 @@
 #download-image .react-flow__node-custom {
   font-size: 12px;
   background: #eee;
+  /* can disable border */
   border: 1px solid #555;
   border-radius: 5px;
   text-align: center;
