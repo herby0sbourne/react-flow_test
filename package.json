@@ -1,11 +1,9 @@
 {
   "dependencies": {
-    "html-to-image": "latest",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-flow-renderer": "10.3.17",
-    "react-scripts": "^4.0.0",
-    "reactflow": "11.4.2"
+    "html-to-image": "^1.11.4",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-flow-renderer": "^10.3.17"
   },
   "main": "/index.js",
   "devDependencies": {
